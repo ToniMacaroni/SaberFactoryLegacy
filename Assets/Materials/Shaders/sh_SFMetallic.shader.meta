@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 365410a1d58cd584d95fd02bc5845dce
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ReflectionTexture: {fileID: 2800000, guid: 09f001249d70b8f43acf154decff967d,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: saberfactoryassets
+  assetBundleVariant: 
