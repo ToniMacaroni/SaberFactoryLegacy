@@ -13,7 +13,7 @@ Shader "SF/GlowShader"
 	SubShader
 	{
 		Tags{ "RenderType" = "TransparentCutout"  "Queue" = "Geometry+0" "IsEmissive" = "true"  }
-		Cull Off
+		Cull Back
 		CGPROGRAM
 		#pragma target 3.0
 		#pragma surface surf Unlit keepalpha noshadow 

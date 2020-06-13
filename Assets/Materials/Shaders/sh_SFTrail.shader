@@ -4,8 +4,8 @@ Shader "SF/Trail"
 {
 	Properties
 	{
-		_Tex("Tex", 2D) = "white" {}
-		_Color("Color", Color) = (0,0,0,0)
+		_MainTex("MainTex", 2D) = "white" {}
+		_Color("Color", Color) = (0.498,0,0,0)
 		_UseColorScheme("Use Colorscheme", Range( 0 , 1)) = 0
 		_Opacity("Opacity", Float) = 1
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
@@ -24,8 +24,8 @@ Shader "SF/Trail"
 			float2 uv_texcoord;
 		};
 
-		uniform sampler2D _Tex;
-		uniform float4 _Tex_ST;
+		uniform sampler2D _MainTex;
+		uniform float4 _MainTex_ST;
 		uniform float4 _Color;
 		uniform float _Opacity;
 
@@ -36,8 +36,8 @@ Shader "SF/Trail"
 
 		void surf( Input i , inout SurfaceOutput o )
 		{
-			float2 uv_Tex = i.uv_texcoord * _Tex_ST.xy + _Tex_ST.zw;
-			float4 tex2DNode5 = tex2D( _Tex, uv_Tex );
+			float2 uv_MainTex = i.uv_texcoord * _MainTex_ST.xy + _MainTex_ST.zw;
+			float4 tex2DNode5 = tex2D( _MainTex, uv_MainTex );
 			o.Emission = ( tex2DNode5 * _Color ).rgb;
 			o.Alpha = ( tex2DNode5.a * _Opacity );
 		}
