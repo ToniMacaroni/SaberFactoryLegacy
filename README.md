@@ -10,6 +10,10 @@ Instead of downloading the whole saber, you download parts and combine them like
 Everything is built around customization.  
 Change the shape, shaders, material properties, textures and more of the parts.
 
+*This mod doesn't have anything to do with the Custom Sabers mod and will not load .saber files*   
+*If you want to create your own parts refer to the "How do I create parts" note*   
+*You can still install both mods and toogle Saber Factory in the settings to use Custom Sabers*
+
 ## How do I install it
 1) Download the "SaberFactory.zip" [Here](https://github.com/ToniMacaroni/SaberFactory/releases)
 2) Unpack it in your Beat Saber directory
