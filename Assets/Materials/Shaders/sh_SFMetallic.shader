@@ -4,9 +4,12 @@ Shader "SF/Metallic"
 {
 	Properties
 	{
-		_ReflectionTexture("Reflection Texture", 2D) = "black" {}
-		_Power("Power", Float) = 0.634
-		_Brightness("Brightness", Float) = 0.28
+		_ReflectionTexture("!Reflection Texture", 2D) = "black" {}
+		_Contrast("Contrast", Float) = 0.634
+		_ShineBrightness("Shine Brightness", Float) = 0.4
+		_Color("Color", Color) = (0.1415094,0.6044365,1,0)
+		_UseColorScheme("Use Colorscheme", Range( 0 , 1)) = 0
+		_BaseBrightness("Base Brightness", Range( 0 , 1)) = 0.1
 
 	}
 
@@ -23,9 +26,11 @@ Shader "SF/Metallic"
 			float3 viewDir;
 		};
 
+		uniform float4 _Color;
+		uniform float _BaseBrightness;
 		uniform sampler2D _ReflectionTexture;
-		uniform float _Power;
-		uniform float _Brightness;
+		uniform float _Contrast;
+		uniform float _ShineBrightness;
 
 		inline half4 LightingUnlit( SurfaceOutput s, half3 lightDir, half atten )
 		{
@@ -38,8 +43,7 @@ Shader "SF/Metallic"
 			float dotResult14 = dot( worldNormal , i.viewDir );
 			float dotResult17 = dot( (worldNormal).xzy , (i.viewDir).zyx );
 			float4 appendResult18 = (float4(dotResult14 , dotResult17 , 0.0 , 0.0));
-			float3 temp_cast_1 = (( pow( tex2D( _ReflectionTexture, appendResult18.xy ).r , ( _Power * 5.0 ) ) * _Brightness )).xxx;
-			o.Emission = temp_cast_1;
+			o.Emission = ( _Color * ( (0.0 + (_BaseBrightness - 0.0) * (0.1 - 0.0) / (1.0 - 0.0)) + ( pow( tex2D( _ReflectionTexture, appendResult18.xy ).r , ( _Contrast * 5.0 ) ) * _ShineBrightness ) ) ).rgb;
 			o.Alpha = 0.0;
 		}
 
