@@ -7,6 +7,7 @@ To get more parts (once available) and help with the mod
 join the the **[Saber Factory Discord](https://discord.gg/8umquzR)** server
 
 
+
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D21V8R8)
 
 ## What is Saber Factory?
@@ -25,8 +26,7 @@ Change the shape, shaders, material properties, textures and more of the parts.
 2) Unpack it in your Beat Saber directory
 
 ## How do I create parts?
-I will make a guide soon.  
-If it's really urgent shoot me a dm.
+You can find guides on the discord server
 
 ## Why is the mod obfuscated and the source not available?
 I'm not only trying to make the mod as pleasant as possible for users,  
