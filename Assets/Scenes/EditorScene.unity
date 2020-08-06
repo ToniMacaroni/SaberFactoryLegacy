@@ -536,7 +536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Basic Blade
   Author: Toni Macaroni
-  Cover: {fileID: 2800000, guid: 7829cb0812050d24a94315c6246876e6, type: 3}
+  Cover: {fileID: 2800000, guid: a8b6bfb6a587d9d44bc1e662d76b2c5a, type: 3}
   PartCategory: 3
   PartSubCategory: 0
   MaterialList: []
@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Spiral Hilt
   Author: Toni Macaroni
-  Cover: {fileID: 2800000, guid: a33b0c8ebb5094a4c99df1b8c4926a0a, type: 3}
+  Cover: {fileID: 2800000, guid: 0e31eca1ec095184e97b4477ea1a1b2b, type: 3}
   PartCategory: 1
   PartSubCategory: 0
   MaterialList:
