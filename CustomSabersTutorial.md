@@ -13,3 +13,5 @@ you have to keep these things in mind.
    To select a custom saber in-game, go into Saber Factory, click the most right button on the top navbar and select a saber.
    
    To create a saber with Saber Factory again, click the blade button on the top navbar and select a blade from there.
+   
+   **If you are the creator of a saber and want it to be allowed for customization in Saber Factory let me know on discord (Toni Macaroni#8970)**
