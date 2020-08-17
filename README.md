@@ -17,7 +17,7 @@ Instead of downloading the whole saber, you download parts and combine them like
 Everything is built around customization.  
 Change the shape, shaders, material properties, textures and more of the parts.
 
-*This mod doesn't have anything to do with the Custom Sabers mod and will not load .saber files*   
+*This mod doesn't have anything to do with the Custom Sabers mod*   
 *If you want to create your own parts refer to the "How do I create parts" note*   
 *You can still install both mods and toggle Saber Factory in the settings to use Custom Sabers*
 
