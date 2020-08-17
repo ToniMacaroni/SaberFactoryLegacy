@@ -1,8 +1,7 @@
 # Saber Factory
 This repository only contains the workshop if you want to create your own content.
 
-Mod download **[Here](https://github.com/ToniMacaroni/SaberFactory/releases)**
-**You need to select the default saber in Custom Saber to use this mod**
+Mod download **[Here](https://github.com/ToniMacaroni/SaberFactory/releases)**. **You need to select the default saber in Custom Saber to use this mod**
 
 To get more parts (once available) and help with the mod  
 join the the **[Saber Factory Discord](https://discord.gg/8umquzR)** server
