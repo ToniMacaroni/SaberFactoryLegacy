@@ -6,7 +6,7 @@ Parts & Downloads: **https://saberfactory.com**
   
 **You need to select the default saber in Custom Saber to use this mod**
 
-To get more content and help with the mod  
+To get more content and help with the mod and creation of content
 join the the **[Saber Factory Discord](https://discord.gg/8umquzR)** server
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D21V8R8)
