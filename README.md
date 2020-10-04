@@ -6,7 +6,7 @@ You can download the mod from the **[Releases](https://github.com/ToniMacaroni/S
 **You need to select the default saber in Custom Saber to use this mod**
 
 To get more content and help with the mod or creation of content  
-join the the **[Saber Factory Discord](https://discord.gg/8umquzR)** server
+join the the **[Saber Factory Discord](https://discord.gg/G9dtW5s)** server
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D21V8R8)
 
